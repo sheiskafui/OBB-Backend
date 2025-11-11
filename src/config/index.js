@@ -3,7 +3,7 @@ dotenv.config();
 
 export default {
   ENVIRONMENT: process.env.NODE_ENV || "dev",
-  PORT: Number(process.env.PORT || 3000),
+  PORT: Number(process.env.PORT || 5000),
   DATABASE_NAME: process.env.DATABASE_NAME || "onboardbeta_db",
   DATABASE_USERNAME: process.env.DATABASE_USERNAME || "root",
   DATABASE_PASSWORD: process.env.DATABASE_PASSWORD || "Makay_cadillac@123",
